@@ -1,5 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323');
+@import url('https://fonts.googleapis.com/css2?family=Mountains of Christmas');
 
 h1 { 
-     font-family: 'VT323';
+     font-family: 'Mountains of Christmas';
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+  
+.topnav img{
+  width: 25%;
+  height: 25%;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #f00808;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #d32f2f;
+  text-align: center;
+  font-weight: bold;
 }
